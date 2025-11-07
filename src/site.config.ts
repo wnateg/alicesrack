@@ -168,8 +168,8 @@ const config: SiteConfig = {
   giscus: {
     repo: 'wnateg/alicesrack',
     repoId: 'R_kgDOQRRZpQ',
-    category: 'Announcements',
-    categoryId: 'DIC_kwDOQRRZpc4Cxi7-',
+    category: 'Comments',
+    categoryId: 'DIC_kwDOQRRZpc4CxjFx',
     reactionsEnabled: true, // Enable reactions on post itself
   },
   // These are characters available for the character chat feature.
