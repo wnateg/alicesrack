@@ -1,2 +1,2 @@
 # Alice Graham | CTO at Hometown Hero
-## Technical blog by Alice Graham, CTO of Hometown Hero. Articles on Laravel, Vue, AWS, Electron, and scalable infrastructure. Sharing practical guides, experiments, and lessons from real-world engineering.
+Technical blog by Alice Graham, CTO of Hometown Hero. Articles on Laravel, Vue, AWS, Electron, and scalable infrastructure. Sharing practical guides, experiments, and lessons from real-world engineering.

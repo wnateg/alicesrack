@@ -1,0 +1,25 @@
+---
+import Layout from '~/layouts/Layout.astro'
+import PageHeader from '~/components/PageHeader.astro'
+import { Image } from 'astro:assets'
+
+import avatar from '~/content/avatar.jpg'
+import sasha from '~/content/sasha.jpg'
+import server from '~/content/server.jpg'
+---
+<Layout title="About Me">
+  <PageHeader />
+  <div class="flex items-center justify-center py-12">
+    <Image src={avatar} alt="My wife" class="rounded-2xl -rotate-3 h-36 md:h-64 w-auto object-cover" />
+    <Image src={sasha} alt="Sasha" class="rounded-2xl rotate-2 h-36 md:h-64 w-auto object-cover -ml-4" />
+    <Image src={server} alt="Homelab" class="rounded-2xl -rotate-2 h-36 md:h-64 w-auto object-cover -ml-4" />
+  </div>
+
+  <p class="mb-4">I’m Alice Graham, CTO at Hometown Hero, where I lead engineering, infrastructure, and digital transformation. My work revolves around building scalable systems, automating complex workflows, and bridging the gap between elegant code and practical business needs. Over the years, I’ve worked across full-stack development, cloud architecture, and SaaS automation—always with a focus on creating tools that make technology feel effortless.</p>
+
+  <p class="mb-4">Outside of work, I’m passionate about networking and home lab projects—from optimizing VLAN setups to experimenting with rack-mounted systems and automation. It’s a hobby that keeps me learning every day and often overlaps with my professional interests in reliability, performance, and design.</p>
+
+  <p class="mb-4">When I’m not in front of a terminal or a switch, you’ll usually find me at the gym or spending time with my wife, Layla. Fitness and tech both play a big part in my life—they’re disciplines that teach consistency, curiosity, and patience.</p>
+
+  <p class="mb-4">This blog is a mix of my world: coding, networking, fitness, and personal insights. Whether you’re here to pick up technical ideas, find workflow inspiration, or just enjoy the process of building and improving—welcome.</p>
+</Layout>

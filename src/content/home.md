@@ -1,8 +1,8 @@
 ---
 avatarImage:
   src: './avatar.jpg'
-  alt: 'My avatar'
-githubCalendar: 'stelcodes'
+  alt: 'Alice Graham'
+githubCalendar: 'wnateg'
 ---
 
-Welcome to the example site. This site is meant to show off my custom Astro theme/template **MultiTerm** which creates a coder-ready blog complete with an interactive theme changer, RSS, sitemap, tagging, and markdown extensions.
+I’m Alice Graham, CTO of Hometown Hero, where I build and scale modern software systems. I spend my time with my wife Layla, bodybuilding, and exploring the world of home networking. This is where I share thoughts on coding, infrastructure, and the hobbies that keep me curious.

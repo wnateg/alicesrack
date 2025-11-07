@@ -2,9 +2,9 @@ import type { SiteConfig } from '~/types'
 
 const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
-  site: 'https://aliceanaconda.com',
+  site: 'https://alicesrack.com',
   // The name of your site, used in the title and for SEO.
-  title: 'Alice Graham | CTO at Hometown Hero',
+  title: 'Alice\'s Rack',
   // The description of your site, used for SEO and RSS feed.
   description:
     'Technical blog by Alice Graham, CTO of Hometown Hero. Articles on Laravel, Vue, AWS, Electron, and scalable infrastructure. Sharing practical guides, experiments, and lessons from real-world engineering.',
@@ -166,7 +166,7 @@ const config: SiteConfig = {
   // IMPORTANT: Update giscus.json in the root of the project with your own website URL
   // If you don't want to use Giscus, set this to undefined.
   giscus: {
-    repo: 'wnateg/aliceanaconda',
+    repo: 'wnateg/alicesrack',
     repoId: 'R_kgDOQRRZpQ',
     category: 'Announcements',
     categoryId: 'DIC_kwDOQRRZpc4Cxi7-',
